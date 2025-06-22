@@ -1,11 +1,12 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 27
+    compileSdkVersion 35
+    namespace "com.bennyplo.openglpipeline"
     defaultConfig {
         applicationId "com.bennyplo.openglpipeline"
         minSdkVersion 14
-        targetSdkVersion 27
+        targetSdkVersion 35
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
